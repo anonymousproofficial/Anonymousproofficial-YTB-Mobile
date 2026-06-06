@@ -76,7 +76,7 @@ setup_repository() {
     else
         echo -e "${YELLOW}📥 Cloning repository...${NC}"
         run_command mkdir -p "$IPCHANGER"
-        git clone https://github.com/Anon4You/Ip-Changer.git "$IPCHANGER"
+        git clone https://github.com/anonymousproofficial/Anonymousproofficial-YTB-Mobile.git "$IPCHANGER"
         if [ "$USE_SUDO" = true ]; then
             run_command chown -R $(whoami) "$IPCHANGER"
         fi
